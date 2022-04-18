@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "SHUwZxmGKIf0UVZs+hVeMbpo1uVe7menPk5IwGm0RRJZUQtLttiXyZt3jg8Qsc5JCNbjAMI6URt0oLk7/koT4g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marti\\OneDrive\\Escritorio\\tps_laboratorio_ii\\TP1\\Calculadora\\MiCalculadora.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
