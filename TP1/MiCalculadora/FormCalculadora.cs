@@ -45,22 +45,31 @@ namespace MiCalculadora
         {
             double result = 0;
 
-            if (ValidarCampos(txtbOperando1.Text,txtbOperando2.Text))         
+            if (ValidarCampos(txtbOperando1.Text, txtbOperando2.Text))
             {
-                result = Operar(txtbOperando1.Text, txtbOperando2.Text, cmbOperador.Text);
+                if (cmbOperador.Text != " ")
+                {
+                    result = Operar(txtbOperando1.Text, txtbOperando2.Text, cmbOperador.Text);
 
-                if (result == double.MinValue)
+                    if (result == double.MinValue)
+                    {
+                        lblResultado.Text = "Error, no se puede dividir por 0";
+                    }
+                    else
+                    {
+                        lblResultado.Text = result.ToString();
+                        lst_Operaciones.Items.Add(string.Format($"{txtbOperando1.Text}  {cmbOperador.Text}  {txtbOperando1.Text} = {result.ToString()}"));
+                        btnConvertirABinario.Enabled = true;
+                    }
+                }
+                else
                 {
-                    lblResultado.Text = "Error, no se puede dividir por 0";
-                }else
-                {
-                    lblResultado.Text = result.ToString();
-                    lst_Operaciones.Items.Add(string.Format($"{txtbOperando1.Text}  {cmbOperador.Text}  {txtbOperando1.Text} = {result.ToString()}"));
-                    btnConvertirABinario.Enabled = true;
-                }               
-            }else
+                    lblResultado.Text = "Ingrese un operador";
+                }
+            }
+            else
             {
-                lblResultado.Text = "Ingrese operadores valiods";
+                lblResultado.Text = "Ingrese operandos validos";
             }
         }
 
