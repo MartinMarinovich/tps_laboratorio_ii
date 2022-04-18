@@ -51,6 +51,7 @@ namespace MiCalculadora
                 {
                     result = Operar(txtbOperando1.Text, txtbOperando2.Text, cmbOperador.Text);
 
+
                     if (result == double.MinValue)
                     {
                         lblResultado.Text = "Error, no se puede dividir por 0";
