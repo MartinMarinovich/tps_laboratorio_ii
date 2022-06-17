@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RlarHGmY8dKqcibIiDM3xTWHFgUpOr5CYCgNVMcvaG9ahdYnuZlQy/0vlnZp59Q1TwDbakmec9lPkWGKEBLpUQ==",
+  "dgSpecHash": "k/ZBR7uE2IaJHcMAWkC1CaQ8vcvnyadRH4ME7rh1GbnQoj5S6s59xuiWNw+zlc4JHm24AbuxSJfztLsiNshokA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marti\\OneDrive\\Escritorio\\tps_laboratorio_ii\\tps_laboratorio_ii\\TP3\\Entidades_Test\\Entidades_Test.csproj",
+  "projectFilePath": "C:\\Users\\marti\\OneDrive\\Escritorio\\tps_laboratorio_ii\\tps_laboratorio_ii\\TP4\\Entidades_Test\\Entidades_Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marti\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

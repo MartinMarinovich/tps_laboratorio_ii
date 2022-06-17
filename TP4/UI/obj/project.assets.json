@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marti\\OneDrive\\Escritorio\\tps_laboratorio_ii\\tps_laboratorio_ii\\TP3\\UI\\UI.csproj",
+      "projectUniqueName": "C:\\Users\\marti\\OneDrive\\Escritorio\\tps_laboratorio_ii\\tps_laboratorio_ii\\TP4\\UI\\UI.csproj",
       "projectName": "UI",
-      "projectPath": "C:\\Users\\marti\\OneDrive\\Escritorio\\tps_laboratorio_ii\\tps_laboratorio_ii\\TP3\\UI\\UI.csproj",
+      "projectPath": "C:\\Users\\marti\\OneDrive\\Escritorio\\tps_laboratorio_ii\\tps_laboratorio_ii\\TP4\\UI\\UI.csproj",
       "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marti\\OneDrive\\Escritorio\\tps_laboratorio_ii\\tps_laboratorio_ii\\TP3\\UI\\obj\\",
+      "outputPath": "C:\\Users\\marti\\OneDrive\\Escritorio\\tps_laboratorio_ii\\tps_laboratorio_ii\\TP4\\UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
